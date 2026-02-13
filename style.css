@@ -99,10 +99,10 @@ h1 {
     color: white;
     border: none;
     border-radius: 16px;
-    font-size: 1.6rem;
+    font-size: clamp(1.2rem, 4vw, 1.6rem);
     font-weight: 900;
     font-family: 'Nunito', sans-serif;
-    padding: 18px 45px;
+    padding: clamp(12px, 2vw, 18px) clamp(24px, 4vw, 45px);
     cursor: pointer;
     transition: transform 0.15s, box-shadow 0.15s;
     box-shadow: 0 6px 20px rgba(76, 175, 80, 0.45);
